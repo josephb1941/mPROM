@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<!-- <meta name="viewport" content="width=2048" /> -->
+	<link rel="stylesheet" href="mystyle.css">
+	<!-- <link rel="stylesheet" href="font-awesome.css"> -->
+	<link rel="stylesheet" href="font-6/css/all.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<title>PROMIS Upper Extremity Form</title>
+
+</head>
+<body>
+<audio id="Question1_1" src="AUDIO/Question1_1.mp3"></audio>
+<audio id="Question2_1" src="AUDIO/Question2_1.mp3"></audio>
+<audio id="Question3_1" src="AUDIO/Question3_1.mp3"></audio>
+<audio id="Question4_1" src="AUDIO/Question4_1.mp3"></audio>
+<audio id="Question5_1" src="AUDIO/Question5_1.mp3"></audio>
+<audio id="Question6_1" src="AUDIO/Question6_1.mp3"></audio>
+<audio id="Question7_1" src="AUDIO/Question7_1.mp3"></audio>
+<audio id="A1_audio_file" src="AUDIO/Without any difficulty1.mp3"></audio>
+<audio id="A2_audio_file" src="AUDIO/With a little difficulty1.mp3"></audio>
+<audio id="A3_audio_file" src="AUDIO/With some difficulty1.mp3"></audio>
+<audio id="A4_audio_file" src="AUDIO/With much difficulty1.mp3"></audio>
+<audio id="A5_audio_file" src="AUDIO/Unable to do1.mp3"></audio>
+<!-- 
+•   Green 2EC4B6
+•   Orange F99F23
+
+-->
+	<div id='page_questions'>
+		<div id = "App_header_Title_Box">
+		
+			<h1 style='font-size:4em;'><u>PROMIS Upper Extremity Form</u></h1>
+		
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<!-- QUESTION 1 -->
+		<div id = Question1 >	
+
+			<h3 class='Question_Header1' style="margin: 50px;" ><b>1. Are you able to carry a heavy object (over 10 pounds/5 kg)?</b>
+				
+				
+				
+				
+			</h3>
+			<svg width="58" height="73" viewBox="0 0 18 33" fill="red" xmlns="http://www.w3.org/2000/svg" style="border-radius:15px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding:3px;margin-left: 380px;margin-top: -110px;cursor: pointer;" onclick="PlayQuestion1(this)">
+				<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+				<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+				<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					
+			</svg>
+			
+				
+			<img id="q1_gif" src="GIF/q1.gif">		
+		</div>
+	
+		<div id="Answers1">
+			
+			<div id = '1_Answer_block1' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'
+			>
+				<div id="q1a1" class ='option1' onclick="ChangeQuestionColor(this);Optionsreset1((this.id));">
+					<!-- <div > -->
+						<i class=" fa-regular fa-face-grin-beam fa-xl" style="color:#2EC4B6"></i>
+					<!-- </div> -->
+					<!-- <div  > -->
+				    	<span id="q1a1t" ><b>Without any difficulty</b></span>
+				    <!-- </div> -->
+
+				    
+				</div>
+				&nbsp;&nbsp;
+				<div class = 'Playbutton1' id = 'PB1q1' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio1(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+
+			<div id = '1_Answer_block2' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q1a2" class ='option1' onClick="ChangeQuestionColor(this);Optionsreset1(this.id);" >
+					
+						<!-- <div> -->
+							<i class="fa-regular fa-face-smile fa-xl" style='color:#2EC4B6;margin-right:4px;'></i>
+						<!-- </div> -->
+						<!-- <div> -->
+						    <span id="q1a2t" style='margin-right: 10px;'><b>With a little difficulty</b></span>
+						<!-- </div> -->
+				</div>
+				&nbsp;&nbsp;
+				<div class = 'Playbutton2' id='PB2q1' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio2(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg">
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+
+			<div id = '1_Answer_block3'  style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q1a3" class ='option1' onClick="ChangeQuestionColor(this);Optionsreset1(this.id)"  >
+					<!-- <div> -->
+						<i class="fa-regular fa-face-meh fa-xl"style='color:#2EC4B6;margin-right:15px;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q1a3t" style='margin-right: 15px;'><b>With some difficulty</b></span>
+				    <!-- </div> -->
+				    <!-- <div class = 'Playbutton3' style="border-radius:40px;background-color: white;" onClick="Playaudio3(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+					</div> -->
+				    
+				</div>
+				&nbsp;&nbsp;
+				<div class = 'Playbutton3' id='PB3q1' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio3(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg">
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+
+			</div>
+
+
+			<div id = '1_Answer_block4' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q1a4" class ='option1' onClick="ChangeQuestionColor(this);Optionsreset1(this.id)" >
+					<!-- <div> -->
+						<i class="fa-regular fa-face-frown fa-xl" style='color:#2EC4B6;margin-right:10px;'></i>
+					<!-- </div> -->
+				   	<!-- <div> -->
+				    	<span id="q1a4t" style='margin-right: 10px;'><b>With much difficulty</b></span>
+				    <!-- </div> -->
+				    <!-- <div></div> -->
+					<!-- <div class = 'Playbutton4' style="border-radius:40px;background-color: white;" onClick="Playaudio4(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				</div>
+				&nbsp;&nbsp;
+				<div class = 'Playbutton4' id='PB4q1' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio4(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg">
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+
+			<div id = '1_Answer_block5' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q1a5" class ='option1' onClick="ChangeQuestionColor(this);OptionsresetUTD1(this.id);">
+					<div >
+				    	<!-- <i class="fa-regular fa-face-pensive fa-5x" style='color:red;border:5px solid red'></i>	 -->
+				    	<svg width="60" height="60" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" style= 'margin-top:15px;margin-right: 10px;'  >
+							<circle class = 'UTDface1' cx="17" cy="17" r="16" stroke="#2EC4B6" stroke-width="3"/>
+							<path class = 'UTDface1' d="M9 28L9 29.618L10.4472 28.8944C15.1819 26.5271 19.3309 26.55 23.5144 28.8742L25 29.6995L25 28C25 26.0133 24.013 24.4689 22.5057 23.4607C21.03 22.4736 19.0697 22 17 22C14.9303 22 12.97 22.4736 11.4943 23.4607C9.98695 24.4689 9 26.0133 9 28Z" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+							<path class = 'UTDface1' d="M26 18C26 18 24.6569 19 23 19C21.3431 19 20.5 17 20 16" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface1' d="M14 16C13.5 17 12.6569 19 11 19C9.34315 19 8 18 8 18" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface1' d="M25 12C23.5 12 23.6569 12 22 12C20.3431 12 19 11.2887 19 10" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface1' d="M15 10C15 11.2887 13.6569 12 12 12C10.3431 12 11 12 9 12" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+
+				    </div>
+
+				    <div style='margin-right: 150px;'>
+				    	<span id="q1a5t" ><b>Unable to do</b></span>
+				    </div>
+				</div>
+				&nbsp;&nbsp;
+				<div class = 'Playbutton5' id='PB5q1' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio5(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg">
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+
+			    
+			</div>
+		</div>
+		<!-- QUESTION 2 -->
+		<br><br><br>
+		<br><br><br>
+		<div id = Question2 >	
+
+			<h3 class='Question_Header2' style="margin:80px;margin-right: 100px;"><b>2. Are you able to wash your back?</b>
+				<!-- <i class="fa-solid fa-circle-play fa-xl" style='padding:20px;color:#2EC4B6;' onclick="PlayQuestion2(this)"></i> -->
+				
+			</h3>
+			<svg width="58" height="73" viewBox="0 0 18 33" fill="red" xmlns="http://www.w3.org/2000/svg" style="border-radius:15px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding:3px;margin-left: 780px;margin-top: -140px;cursor: pointer;" onclick="PlayQuestion2(this)">
+				<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+				<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+				<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					
+			</svg>
+						
+				
+			<img id="q2_gif" src="GIF/q2.gif">		
+		</div>
+		
+		<div id =Answers2 >
+			<div id = '2_Answer_block1' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q2a1" class ='option2' onClick="ChangeQuestionColor(this);Optionsreset2(this.id)" >
+					
+						<i class="fa-regular fa-face-grin-beam fa-xl" style='color:#2EC4B6;'></i>
+					
+				    	<span id="q2a1t" ><b>Without any difficulty</b></span>
+
+				</div>
+			    &nbsp;&nbsp;
+			    <!-- <div class = 'Playbutton1' style="border-radius:40px;background-color: white;" onClick="Playaudio1(this);">
+			    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+			    </div> -->
+			    <div class = 'Playbutton1' id = 'PB1q2' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio1(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+			<div id = '2_Answer_block2' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q2a2" class ='option2' onClick="ChangeQuestionColor(this);Optionsreset2(this.id)">
+					<!-- <div>	 -->
+						<i class="fa-regular fa-face-smile fa-xl" style='color:#2EC4B6;margin-right:4px;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q2a2t"><b>With a little difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+			    &nbsp;&nbsp;
+				<!-- 
+				    <div class = 'Playbutton2' style="border-radius:40px;background-color: white;" onClick="Playaudio2(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				<div class = 'Playbutton2' id = 'PB2q2' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio2(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+			<div id = '2_Answer_block3' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q2a3" class ='option2'onClick="ChangeQuestionColor(this);Optionsreset2(this.id);">
+					<!-- <div> -->
+						<i class="fa-regular fa-face-meh fa-xl"style='color:#2EC4B6;margin-right: 4px;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q2a3t" style='margin-right: 15px;'><b>With some difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+				&nbsp;&nbsp;
+				    <!-- <div class = 'Playbutton3' style="border-radius:40px;background-color: white;" onClick="Playaudio3(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				    <div class = 'Playbutton3' id = 'PB3q2' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio3(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+				</div>		    
+			</div>
+			<div id = '2_Answer_block4' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q2a4" class ='option2'onClick="ChangeQuestionColor(this);Optionsreset2(this.id);">
+					<!-- <div> -->
+						<i class="fa-regular fa-face-frown fa-xl"style='color:#2EC4B6;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q2a4t" style='margin-right: 15px;'><b>With much difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+				&nbsp;&nbsp;
+				    <!-- <div class = 'Playbutton3' style="border-radius:40px;background-color: white;" onClick="Playaudio3(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				    <div class = 'Playbutton4' id = 'PB4q2' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio4(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+				</div>		    
+			</div>
+			<div id = '2_Answer_block5' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q2a5" class ='option2' onClick="ChangeQuestionColor(this);OptionsresetUTD2(this.id);">
+					<div >
+				    	<!-- <i class="fa-regular fa-face-pensive fa-5x" style='color:red;border:5px solid red'></i>	 -->
+				    	<svg width="60" height="60" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" style= 'margin-top:15px;margin-right: 10px;'  >
+							<circle class = 'UTDface2' cx="17" cy="17" r="16" stroke="#2EC4B6" stroke-width="3"/>
+							<path class = 'UTDface2' d="M9 28L9 29.618L10.4472 28.8944C15.1819 26.5271 19.3309 26.55 23.5144 28.8742L25 29.6995L25 28C25 26.0133 24.013 24.4689 22.5057 23.4607C21.03 22.4736 19.0697 22 17 22C14.9303 22 12.97 22.4736 11.4943 23.4607C9.98695 24.4689 9 26.0133 9 28Z" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+							<path class = 'UTDface2' d="M26 18C26 18 24.6569 19 23 19C21.3431 19 20.5 17 20 16" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface2' d="M14 16C13.5 17 12.6569 19 11 19C9.34315 19 8 18 8 18" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface2' d="M25 12C23.5 12 23.6569 12 22 12C20.3431 12 19 11.2887 19 10" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface2' d="M15 10C15 11.2887 13.6569 12 12 12C10.3431 12 11 12 9 12" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+
+				    </div>
+
+				    <div style='margin-right: 155px;'>
+				    	<span id="q2a5t" ><b>Unable to do</b></span>
+				    </div>
+				</div>
+				&nbsp;&nbsp;
+				<div class = 'Playbutton5' id='PB5q2' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio5(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg">
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+
+			    
+			</div>
+		</div>
+		<!-- QUESTION 3 -->
+		<br><br><br>
+		<br><br><br>
+
+		<div id = Question3>	
+
+			<h3 class='Question_Header3' style="margin:60px;"><b>3. Are you able to put on and take off a coat or jacket?</b>
+				<!-- <i class="fa-solid fa-circle-play fa-xl" style='padding:20px;color:#2EC4B6;' onclick="PlayQuestion2(this)"></i> -->
+				
+			</h3>
+			<svg width="58" height="73" viewBox="0 0 18 33" fill="red" xmlns="http://www.w3.org/2000/svg" style="border-radius:15px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding:3px;margin-left: 1180px;margin-top: -120px;cursor: pointer;" onclick="PlayQuestion3(this)">
+				<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+				<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+				<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					
+			</svg>
+						
+				
+			<img id="q3_gif" src="GIF/q3.gif">	
+		</div>
+		<div id =Answers3 >
+			<div id = '3_Answer_block1' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q3a1" class ='option3' onClick="ChangeQuestionColor(this);Optionsreset3(this.id)" >
+					
+						<i class="fa-regular fa-face-grin-beam fa-xl" style='color:#2EC4B6;'></i>
+					
+				    	<span id="q3a1t" ><b>Without any difficulty</b></span>
+
+				</div>
+			    &nbsp;&nbsp;
+			    <!-- <div class = 'Playbutton1' style="border-radius:40px;background-color: white;" onClick="Playaudio1(this);">
+			    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+			    </div> -->
+			    <div class = 'Playbutton1' id = 'PB1q3' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio1(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+			<div id = '3_Answer_block2' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q3a2" class ='option3' onClick="ChangeQuestionColor(this);Optionsreset3(this.id)">
+					<!-- <div>	 -->
+						<i class="fa-regular fa-face-smile fa-xl" style='color:#2EC4B6;margin-right:4px;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q3a2t"><b>With a little difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+			    &nbsp;&nbsp;
+				<!-- 
+				    <div class = 'Playbutton2' style="border-radius:40px;background-color: white;" onClick="Playaudio2(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				<div class = 'Playbutton2' id = 'PB2q3' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio2(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+			<div id = '3_Answer_block3' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q3a3" class ='option3'onClick="ChangeQuestionColor(this);Optionsreset3(this.id);">
+					<!-- <div> -->
+						<i class="fa-regular fa-face-meh fa-xl"style='color:#2EC4B6;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q3a3t" style='margin-right: 15px;'><b>With some difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+				&nbsp;&nbsp;
+				    <!-- <div class = 'Playbutton3' style="border-radius:40px;background-color: white;" onClick="Playaudio3(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				    <div class = 'Playbutton3' id = 'PB3q3' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio3(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+				</div>		    
+			</div>
+			<div id = '3_Answer_block4' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q3a4" class ='option3' onClick="ChangeQuestionColor(this);Optionsreset3(this.id);">
+					<!-- <div> -->
+						<i class="fa-regular fa-face-frown fa-xl"style='color:#2EC4B6;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q3a4t" style='margin-right: 15px;'><b>With much difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+				&nbsp;&nbsp;
+				    <!-- <div class = 'Playbutton3' style="border-radius:40px;background-color: white;" onClick="Playaudio3(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				    <div class = 'Playbutton4' id = 'PB4q3' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio4(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+				</div>		    
+			</div>
+			<div id = '3_Answer_block5' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q3a5" class ='option3' onClick="ChangeQuestionColor(this);OptionsresetUTD3(this.id);">
+					<div >
+				    	<!-- <i class="fa-regular fa-face-pensive fa-5x" style='color:red;border:5px solid red'></i>	 -->
+				    	<svg width="60" height="60" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" style= 'margin-top:15px;margin-right: 10px;' >
+							<circle class = 'UTDface3' cx="17" cy="17" r="16" stroke="#2EC4B6" stroke-width="3"/>
+							<path class = 'UTDface3' d="M9 28L9 29.618L10.4472 28.8944C15.1819 26.5271 19.3309 26.55 23.5144 28.8742L25 29.6995L25 28C25 26.0133 24.013 24.4689 22.5057 23.4607C21.03 22.4736 19.0697 22 17 22C14.9303 22 12.97 22.4736 11.4943 23.4607C9.98695 24.4689 9 26.0133 9 28Z" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+							<path class = 'UTDface3' d="M26 18C26 18 24.6569 19 23 19C21.3431 19 20.5 17 20 16" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface3' d="M14 16C13.5 17 12.6569 19 11 19C9.34315 19 8 18 8 18" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface3' d="M25 12C23.5 12 23.6569 12 22 12C20.3431 12 19 11.2887 19 10" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface3' d="M15 10C15 11.2887 13.6569 12 12 12C10.3431 12 11 12 9 12" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+
+				    </div>
+
+				    <div style='margin-right: 150px;'>
+				    	<span id="q3a5t" ><b>Unable to do</b></span>
+				    </div>
+				</div>
+				&nbsp;&nbsp;
+				<div class = 'Playbutton5' id='PB5q3' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio5(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg">
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+
+			    
+			</div>
+		</div>
+
+		<!-- QUESTION 4 -->
+		<br><br><br>
+		<br><br><br>
+
+		<div id = Question4>	
+
+			<h3 class='Question_Header4' style="margin:140px;"><b>4. Are you able to carry a shopping bag or briefcase?</b>
+				<!-- <i class="fa-solid fa-circle-play fa-xl" style='padding:20px;color:#2EC4B6;' onclick="PlayQuestion4(this)"></i> -->
+			</h3>
+			<svg width="58" height="73" viewBox="0 0 18 33" fill="red" xmlns="http://www.w3.org/2000/svg" style="border-radius:15px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding:3px;margin-left: 280px;margin-top: -200px;cursor: pointer;" onclick="PlayQuestion4(this)">
+				<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+				<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+				<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					
+			</svg>
+						
+				
+			<img id="q4_gif" src="GIF/q4.gif">		
+		</div>
+		<div id =Answers4 >
+			<div id = '4_Answer_block1' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q4a1" class ='option4' onClick="ChangeQuestionColor(this);Optionsreset4(this.id)" >
+					
+						<i class="fa-regular fa-face-grin-beam fa-xl" style='color:#2EC4B6;'></i>
+					
+				    	<span id="q4a1t" ><b>Without any difficulty</b></span>
+
+				</div>
+			    &nbsp;&nbsp;
+			    <!-- <div class = 'Playbutton1' style="border-radius:40px;background-color: white;" onClick="Playaudio1(this);">
+			    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+			    </div> -->
+			    <div class = 'Playbutton1' id = 'PB1q4' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio1(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+			<div id = '4_Answer_block2' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q4a2" class ='option4' onClick="ChangeQuestionColor(this);Optionsreset4(this.id)">
+					<!-- <div>	 -->
+						<i class="fa-regular fa-face-smile fa-xl" style='color:#2EC4B6;margin-right:4px;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q4a2t"><b>With a little difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+			    &nbsp;&nbsp;
+				<!-- 
+				    <div class = 'Playbutton2' style="border-radius:40px;background-color: white;" onClick="Playaudio2(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				<div class = 'Playbutton2' id = 'PB2q4' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio2(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+			<div id = '4_Answer_block3' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q4a3" class ='option4'onClick="ChangeQuestionColor(this);Optionsreset4(this.id);">
+					<!-- <div> -->
+						<i class="fa-regular fa-face-meh fa-xl"style='color:#2EC4B6;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q4a3t" style='margin-right: 15px;'><b>With some difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+				&nbsp;&nbsp;
+				    <!-- <div class = 'Playbutton3' style="border-radius:40px;background-color: white;" onClick="Playaudio3(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				    <div class = 'Playbutton3' id = 'PB3q4' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio3(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+				</div>		    
+			</div>
+			<div id = '4_Answer_block4' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q4a4" class ='option4'onClick="ChangeQuestionColor(this);Optionsreset4(this.id);">
+					<!-- <div> -->
+						<i class="fa-regular fa-face-frown fa-xl"style='color:#2EC4B6;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q4a4t" style='margin-right: 15px;'><b>With much difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+				&nbsp;&nbsp;
+				    <!-- <div class = 'Playbutton3' style="border-radius:40px;background-color: white;" onClick="Playaudio3(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				    <div class = 'Playbutton4' id = 'PB4q4' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio4(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+				</div>		    
+			</div>
+			<div id = '4_Answer_block5' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q4a5" class ='option4' onClick="ChangeQuestionColor(this);OptionsresetUTD4(this.id);">
+					<div >
+				    	<!-- <i class="fa-regular fa-face-pensive fa-5x" style='color:red;border:5px solid red'></i>	 -->
+				    	<svg width="60" height="60" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" style= 'margin-top:15px;margin-right: 10px;'  >
+							<circle class = 'UTDface4' cx="17" cy="17" r="16" stroke="#2EC4B6" stroke-width="3"/>
+							<path class = 'UTDface4' d="M9 28L9 29.618L10.4472 28.8944C15.1819 26.5271 19.3309 26.55 23.5144 28.8742L25 29.6995L25 28C25 26.0133 24.013 24.4689 22.5057 23.4607C21.03 22.4736 19.0697 22 17 22C14.9303 22 12.97 22.4736 11.4943 23.4607C9.98695 24.4689 9 26.0133 9 28Z" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+							<path class = 'UTDface4' d="M26 18C26 18 24.6569 19 23 19C21.3431 19 20.5 17 20 16" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface4' d="M14 16C13.5 17 12.6569 19 11 19C9.34315 19 8 18 8 18" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface4' d="M25 12C23.5 12 23.6569 12 22 12C20.3431 12 19 11.2887 19 10" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface4' d="M15 10C15 11.2887 13.6569 12 12 12C10.3431 12 11 12 9 12" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+
+				    </div>
+
+				    <div style='margin-right: 150px;'>
+				    	<span id="q3a5t" ><b>Unable to do</b></span>
+				    </div>
+				</div>
+				&nbsp;&nbsp;
+				<div class = 'Playbutton5' id='PB5q4' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio5(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg">
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+
+			    
+			</div>
+		</div>
+
+
+		<!-- QUESTION 5 -->
+		<br><br><br>
+		<br><br><br>
+
+
+		<div id = Question5>	
+
+			<h3 class='Question_Header5' style="margin:120px;"><b>5. Are you able to lift 10 pounds (5 kg) above your shoulder?</b>
+				<!-- <i class="fa-solid fa-circle-play fa-xl" style='padding:20px;color:#2EC4B6;' onclick="PlayQuestion5(this)"></i> -->
+			</h3>
+			<svg width="58" height="73" viewBox="0 0 18 33" fill="red" xmlns="http://www.w3.org/2000/svg" style="border-radius:15px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding:3px;margin-left: 380px;margin-top: -180px;cursor: pointer;" onclick="PlayQuestion5(this)">
+				<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+				<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+				<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					
+			</svg>
+						
+				
+			<img id="q5_gif" src="GIF/q5.gif">		
+		</div>
+		
+		<div id =Answers5 >
+			<div id = '5_Answer_block1' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q5a1" class ='option5' onClick="ChangeQuestionColor(this);Optionsreset5(this.id)" >
+					
+						<i class="fa-regular fa-face-grin-beam fa-xl" style='color:#2EC4B6;'></i>
+					
+				    	<span id="q5a1t" ><b>Without any difficulty</b></span>
+
+				</div>
+			    &nbsp;&nbsp;
+			    <!-- <div class = 'Playbutton1' style="border-radius:40px;background-color: white;" onClick="Playaudio1(this);">
+			    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+			    </div> -->
+			    <div class = 'Playbutton1' id = 'PB1q5' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio1(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+			<div id = '5_Answer_block2' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q5a2" class ='option5' onClick="ChangeQuestionColor(this);Optionsreset5(this.id)">
+					<!-- <div>	 -->
+						<i class="fa-regular fa-face-smile fa-xl" style='color:#2EC4B6;margin-right:4px;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q5a2t"><b>With a little difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+			    &nbsp;&nbsp;
+				<!-- 
+				    <div class = 'Playbutton2' style="border-radius:40px;background-color: white;" onClick="Playaudio2(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				<div class = 'Playbutton2' id = 'PB2q5' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio2(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+			<div id = '5_Answer_block3' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q5a3" class ='option5'onClick="ChangeQuestionColor(this);Optionsreset5(this.id);">
+					<!-- <div> -->
+						<i class="fa-regular fa-face-meh fa-xl"style='color:#2EC4B6;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q5a3t" style='margin-right: 15px;'><b>With some difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+				&nbsp;&nbsp;
+				    <!-- <div class = 'Playbutton3' style="border-radius:40px;background-color: white;" onClick="Playaudio3(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				    <div class = 'Playbutton3' id = 'PB3q5' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio3(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+				</div>		    
+			</div>
+			<div id = '5_Answer_block4' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q5a4" class ='option5'onClick="ChangeQuestionColor(this);Optionsreset5(this.id);">
+					<!-- <div> -->
+						<i class="fa-regular fa-face-frown fa-xl"style='color:#2EC4B6;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q5a4t" style='margin-right: 15px;'><b>With much difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+				&nbsp;&nbsp;
+				    <!-- <div class = 'Playbutton3' style="border-radius:40px;background-color: white;" onClick="Playaudio3(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				    <div class = 'Playbutton4' id = 'PB4q5' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio4(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+				</div>		    
+			</div>
+			<div id = '5_Answer_block5' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q5a5" class ='option5' onClick="ChangeQuestionColor(this);OptionsresetUTD5(this.id);">
+					<div >
+				    	<!-- <i class="fa-regular fa-face-pensive fa-5x" style='color:red;border:5px solid red'></i>	 -->
+				    	<svg width="60" height="60" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" style= 'margin-top:15px;margin-right: 10px;'  >
+							<circle class = 'UTDface5' cx="17" cy="17" r="16" stroke="#2EC4B6" stroke-width="3"/>
+							<path class = 'UTDface5' d="M9 28L9 29.618L10.4472 28.8944C15.1819 26.5271 19.3309 26.55 23.5144 28.8742L25 29.6995L25 28C25 26.0133 24.013 24.4689 22.5057 23.4607C21.03 22.4736 19.0697 22 17 22C14.9303 22 12.97 22.4736 11.4943 23.4607C9.98695 24.4689 9 26.0133 9 28Z" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+							<path class = 'UTDface5' d="M26 18C26 18 24.6569 19 23 19C21.3431 19 20.5 17 20 16" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface5' d="M14 16C13.5 17 12.6569 19 11 19C9.34315 19 8 18 8 18" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface5' d="M25 12C23.5 12 23.6569 12 22 12C20.3431 12 19 11.2887 19 10" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface5' d="M15 10C15 11.2887 13.6569 12 12 12C10.3431 12 11 12 9 12" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+
+				    </div>
+
+				    <div style='margin-right: 150px;'>
+				    	<span id="q5a5t" ><b>Unable to do</b></span>
+				    </div>
+				</div>
+				&nbsp;&nbsp;
+				<div class = 'Playbutton5' id='PB5q5' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio5(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg">
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+
+			    
+			</div>
+		</div>
+
+		<!-- QUESTION 6 -->
+		<br><br><br>
+		<br><br><br>
+		<br><br><br>
+		<br><br>
+		<!-- <br><br><br> -->
+		<div id = Question6>	
+
+			<h3 class='Question_Header6'  ><b>6. Are you able to change a light bulb overhead?</b>
+				<!-- <i class="fa-solid fa-circle-play fa-xl" style='padding:20px;color:#2EC4B6;' onclick="PlayQuestion6(this)"></i> -->
+			</h3>
+			<svg width="58" height="73" viewBox="0 0 18 33" fill="red" xmlns="http://www.w3.org/2000/svg" style="border-radius:15px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding:3px;margin-left: 1050px;margin-top: -80px;cursor: pointer;" onclick="PlayQuestion6(this)">
+				<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+				<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+				<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					
+			</svg>
+						
+				
+			<img id="q6_gif" src="GIF/q6.gif">		
+		</div>
+		
+		<div id =Answers6 >
+			<div id = '6_Answer_block1' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q6a1" class ='option6' onClick="ChangeQuestionColor(this);Optionsreset6(this.id)" >
+					
+						<i class="fa-regular fa-face-grin-beam fa-xl" style='color:#2EC4B6;'></i>
+					
+				    	<span id="q6a1t" ><b>Without any difficulty</b></span>
+
+				</div>
+			    &nbsp;&nbsp;
+			    <!-- <div class = 'Playbutton1' style="border-radius:40px;background-color: white;" onClick="Playaudio1(this);">
+			    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+			    </div> -->
+			    <div class = 'Playbutton1' id = 'PB1q6' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio1(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+			<div id = '6_Answer_block2' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q6a2" class ='option6' onClick="ChangeQuestionColor(this);Optionsreset6(this.id)">
+					<!-- <div>	 -->
+						<i class="fa-regular fa-face-smile fa-xl" style='color:#2EC4B6;margin-right:4px;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q6a2t"><b>With a little difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+			    &nbsp;&nbsp;
+				<!-- 
+				    <div class = 'Playbutton2' style="border-radius:40px;background-color: white;" onClick="Playaudio2(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				<div class = 'Playbutton2' id = 'PB2q6' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio2(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+			<div id = '6_Answer_block3' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q6a3" class ='option6'onClick="ChangeQuestionColor(this);Optionsreset6(this.id);">
+					<!-- <div> -->
+						<i class="fa-regular fa-face-meh fa-xl"style='color:#2EC4B6;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q6a3t" style='margin-right: 15px;'><b>With some difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+				&nbsp;&nbsp;
+				    <!-- <div class = 'Playbutton3' style="border-radius:40px;background-color: white;" onClick="Playaudio3(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				    <div class = 'Playbutton3' id = 'PB3q6' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio3(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+				</div>		    
+			</div>
+			<div id = '6_Answer_block4' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q6a4" class ='option6'onClick="ChangeQuestionColor(this);Optionsreset6(this.id);">
+					<!-- <div> -->
+						<i class="fa-regular fa-face-frown fa-xl"style='color:#2EC4B6;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q6a4t" style='margin-right: 15px;'><b>With much difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+				&nbsp;&nbsp;
+				    <!-- <div class = 'Playbutton3' style="border-radius:40px;background-color: white;" onClick="Playaudio3(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				    <div class = 'Playbutton4' id = 'PB4q6' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio4(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+				</div>		    
+			</div>
+			<div id = '6_Answer_block5' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q6a5" class ='option6' onClick="ChangeQuestionColor(this);OptionsresetUTD6(this.id);">
+					<div >
+				    	<!-- <i class="fa-regular fa-face-pensive fa-5x" style='color:red;border:5px solid red'></i>	 -->
+				    	<svg width="60" height="60" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" style= 'margin-top:15px;margin-right: 10px;'  >
+							<circle class = 'UTDface6' cx="17" cy="17" r="16" stroke="#2EC4B6" stroke-width="3"/>
+							<path class = 'UTDface6' d="M9 28L9 29.618L10.4472 28.8944C15.1819 26.5271 19.3309 26.55 23.5144 28.8742L25 29.6995L25 28C25 26.0133 24.013 24.4689 22.5057 23.4607C21.03 22.4736 19.0697 22 17 22C14.9303 22 12.97 22.4736 11.4943 23.4607C9.98695 24.4689 9 26.0133 9 28Z" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+							<path class = 'UTDface6' d="M26 18C26 18 24.6569 19 23 19C21.3431 19 20.5 17 20 16" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface6' d="M14 16C13.5 17 12.6569 19 11 19C9.34315 19 8 18 8 18" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface6' d="M25 12C23.5 12 23.6569 12 22 12C20.3431 12 19 11.2887 19 10" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface6' d="M15 10C15 11.2887 13.6569 12 12 12C10.3431 12 11 12 9 12" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+
+				    </div>
+
+				    <div style='margin-right: 150px;'>
+				    	<span id="q6a5t" ><b>Unable to do</b></span>
+				    </div>
+				</div>
+				&nbsp;&nbsp;
+				<div class = 'Playbutton5' id='PB5q6' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio5(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg">
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+
+			    
+			</div>
+		</div>
+
+		<!-- QUESTION 7 -->
+		<br><br><br>
+		<br><br><br>
+		<div id = Question7>	
+
+			<h3 class='Question_Header7'><b>7. Are you able to pass a 20-pound (10 kg) turkey or ham to other people at the table?</b>
+				<!-- <i class="fa-solid fa-circle-play fa-xl" style='padding:20px;color:#2EC4B6;' onclick="PlayQuestion7(this)"></i> -->
+				
+			</h3>
+			<svg width="58" height="73" viewBox="0 0 18 33" fill="red" xmlns="http://www.w3.org/2000/svg" style="border-radius:15px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding:3px;cursor: pointer;" onclick="PlayQuestion7(this)">
+				<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+				<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+				<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					
+			</svg>
+						
+				
+			<img id="q7_gif" src="GIF/q7.gif">		
+		</div>
+		
+
+		<!-- <div id =Answers7 >
+			<div id="q7a1" class ='option7' onClick="ChangeQuestionColor(this);">
+				<div>
+					<i class="fa-sharp fa-solid fa-face-grin-beam" style='padding:7px;background-color:#2EC4B6;color:white;border-radius:15px;'></i>
+				</div>
+				<div>
+			    	<span id="q7a1t" >Without any difficulty</span>
+			    </div>
+			    <div class = 'Playbutton1' style="border-radius:40px;background-color: white;" onClick="Playaudio1(this);">
+			    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+			    </div>
+			</div>
+			<div id="q7a2" class ='option7' onClick="ChangeQuestionColor(this);">
+				<div>	
+					<i class="fa-sharp fa-solid fa-face-smile" style='padding:7px;background-color:#2EC4B6;color:white;border-radius:15px;'></i>
+				</div>
+				<div>
+			    	<span id="q7a2t">With a little difficulty</span>
+			    </div>
+			    <div class = 'Playbutton2' style="border-radius:40px;background-color: white;" onClick="Playaudio2(this);">
+			    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+			    </div>
+			</div>
+			<div id="q7a3" class ='option7' onClick="ChangeQuestionColor(this);">
+				<div>
+					<i class="fa-sharp fa-solid fa-face-meh"style='padding:7px;background-color:#2EC4B6;color:white;border-radius:15px;'></i>
+				</div>
+				<div>
+			    	<span id="q7a3t">With some difficulty</span>
+			    </div>
+			    <div class = 'Playbutton3' style="border-radius:40px;background-color: white;" onClick="Playaudio3(this);">
+			    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+			    </div>
+			    
+			</div>
+			<div id="q7a4" class ='option7' onClick="ChangeQuestionColor(this);">
+				<div>
+					<i class="fa-sharp fa-solid fa-face-frown" style='padding:7px;background-color:#2EC4B6;color:white;border-radius:15px;'></i>
+				</div>
+			    <div>
+			    	<span id="q7a4t">With much difficulty</span>
+			    </div>
+			    <div class = 'Playbutton4' style="border-radius:40px;background-color: white;" onClick="Playaudio4(this);">
+			    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+			    </div>
+			</div>
+			<div id="q7a5" class ='option7' onClick="ChangeQuestionColor(this);">
+				<div>
+			    	<i class="fa-solid fa-sad-cry" style='padding:7px;background-color:#2EC4B6;color:white;border-radius:15px;'></i>
+			    </div>
+			    <div>
+			    	<span id="q7a5t">Unable to do</span>
+			    </div>
+			    <div class = 'Playbutton5' style="border-radius:40px;background-color: white;" onClick="Playaudio5(this);">
+			    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+			    </div>
+			</div>
+		</div> -->
+		<div id =Answers7 >
+			<div id = '7_Answer_block1' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q7a1" class ='option7' onClick="ChangeQuestionColor(this);Optionsreset7(this.id)" >
+					
+						<i class="fa-regular fa-face-grin-beam fa-xl" style='color:#2EC4B6;'></i>
+					
+				    	<span id="q7a1t" ><b>Without any difficulty</b></span>
+
+				</div>
+			    &nbsp;&nbsp;
+			    <!-- <div class = 'Playbutton1' style="border-radius:40px;background-color: white;" onClick="Playaudio1(this);">
+			    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+			    </div> -->
+			    <div class = 'Playbutton1' id = 'PB1q7' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio1(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+			<div id = '7_Answer_block2' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q7a2" class ='option7' onClick="ChangeQuestionColor(this);Optionsreset7(this.id)">
+					<!-- <div>	 -->
+						<i class="fa-regular fa-face-smile fa-xl" style='color:#2EC4B6;margin-right:4px;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q7a2t"><b>With a little difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+			    &nbsp;&nbsp;
+				<!-- 
+				    <div class = 'Playbutton2' style="border-radius:40px;background-color: white;" onClick="Playaudio2(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				<div class = 'Playbutton2' id = 'PB2q7' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio2(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+			</div>
+			<div id = '7_Answer_block3' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q7a3" class ='option7'onClick="ChangeQuestionColor(this);Optionsreset7(this.id);">
+					<!-- <div> -->
+						<i class="fa-regular fa-face-meh fa-xl"style='color:#2EC4B6;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q7a3t" style='margin-right: 15px;'><b>With some difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+				&nbsp;&nbsp;
+				    <!-- <div class = 'Playbutton3' style="border-radius:40px;background-color: white;" onClick="Playaudio3(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				    <div class = 'Playbutton3' id = 'PB3q7' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio3(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+				</div>		    
+			</div>
+			<div id = '7_Answer_block4' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q7a4" class ='option7'onClick="ChangeQuestionColor(this);Optionsreset7(this.id);">
+					<!-- <div> -->
+						<i class="fa-regular fa-face-frown fa-xl"style='color:#2EC4B6;'></i>
+					<!-- </div> -->
+					<!-- <div> -->
+				    	<span id="q7a4t" style='margin-right: 15px;'><b>With much difficulty</b></span>
+				    <!-- </div> -->
+				</div>
+				&nbsp;&nbsp;
+				    <!-- <div class = 'Playbutton3' style="border-radius:40px;background-color: white;" onClick="Playaudio3(this);">
+				    	<i class="fa-solid fa-circle-play fa-xl" style='color:#2EC4B6;width:55px;'></i>
+				    </div> -->
+				    <div class = 'Playbutton4' id = 'PB4q7' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio4(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg" >
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+				</div>		    
+			</div>
+			<div id = '7_Answer_block5' style='width:90%;text-align: center;display:flex;justify-content: center; flex-direction: row;align-items: center;'>
+				<div id="q7a5" class ='option7' onClick="ChangeQuestionColor(this);OptionsresetUTD7(this.id);">
+					<div >
+				    	<!-- <i class="fa-regular fa-face-pensive fa-5x" style='color:red;border:5px solid red'></i>	 -->
+				    	<svg width="60" height="60" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" style= 'margin-top:15px;margin-right: 10px;'  >
+							<circle class = 'UTDface7' cx="17" cy="17" r="16" stroke="#2EC4B6" stroke-width="3"/>
+							<path class = 'UTDface7' d="M9 28L9 29.618L10.4472 28.8944C15.1819 26.5271 19.3309 26.55 23.5144 28.8742L25 29.6995L25 28C25 26.0133 24.013 24.4689 22.5057 23.4607C21.03 22.4736 19.0697 22 17 22C14.9303 22 12.97 22.4736 11.4943 23.4607C9.98695 24.4689 9 26.0133 9 28Z" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+							<path class = 'UTDface7' d="M26 18C26 18 24.6569 19 23 19C21.3431 19 20.5 17 20 16" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface7' d="M14 16C13.5 17 12.6569 19 11 19C9.34315 19 8 18 8 18" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface7' d="M25 12C23.5 12 23.6569 12 22 12C20.3431 12 19 11.2887 19 10" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+							<path class = 'UTDface7' d="M15 10C15 11.2887 13.6569 12 12 12C10.3431 12 11 12 9 12" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+
+				    </div>
+
+				    <div style='margin-right: 150px;'>
+				    	<span id="q7a5t" ><b>Unable to do</b></span>
+				    </div>
+				</div>
+				&nbsp;&nbsp;
+				<div class = 'Playbutton5' id='PB5q7' style="border-radius:20px;background-color: #2EC4B6;border:1px solid #2EC4B6;padding: 2px;" onClick="Playaudio5(this);">
+				    
+				    <!-- <i class="fa-solid fa-circle-play fa-4x" style='color:#2EC4B6;padding:10px;'></i> -->
+				    <svg width="58" height="73" viewBox="0 0 18 33" fill="#2EC4B6" xmlns="http://www.w3.org/2000/svg">
+					<path d="M11.201 33C10.8481 33 10.5657 32.8553 10.2834 32.6382C9.71867 32.1316 9.64808 31.1908 10.1422 30.6118C13.3893 26.7039 15.2245 21.6382 15.2246 16.5C15.2246 11.3618 13.4598 6.29605 10.1422 2.38815C9.64808 1.80921 9.71867 0.868416 10.2834 0.361837C10.8481 -0.144742 11.7657 -0.0723732 12.2598 0.506574C15.9304 4.99342 17.9775 10.6382 17.9775 16.5C17.9775 22.3618 15.9304 28.0066 12.2598 32.4934C11.9775 32.8553 11.6245 33 11.201 33Z" fill="white"/>
+					<path d="M6.33041 28.5132C5.97747 28.5132 5.69512 28.3684 5.41277 28.1513C4.84806 27.6447 4.77747 26.7039 5.27159 26.125C7.45983 23.4474 8.73042 20.0461 8.73042 16.5C8.73042 12.9539 7.53042 9.55263 5.27159 6.875C4.77748 6.29605 4.84806 5.35526 5.41277 4.84868C6.04807 4.34211 6.89512 4.41447 7.38924 4.99342C10.0716 8.17763 11.4834 12.3026 11.4834 16.5C11.4834 20.6974 10.001 24.8224 7.38924 28.0066C7.10688 28.3684 6.75394 28.5132 6.33041 28.5132Z" fill="white"/>
+					<path d="M1.38925 24.4605C1.03631 24.4605 0.753959 24.3158 0.471606 24.0987C-0.0930996 23.5921 -0.163688 22.6513 0.33043 22.0724C1.60102 20.4803 2.3069 18.5263 2.3069 16.5C2.3069 14.4737 1.60102 12.4474 0.330432 10.9276C-0.163686 10.3487 -0.0930972 9.40791 0.471609 8.90133C1.03631 8.39475 1.95396 8.46712 2.44808 9.04606C4.21278 11.1447 5.13043 13.75 5.13043 16.5C5.13043 19.25 4.21278 21.8553 2.44808 23.954C2.16572 24.3158 1.81278 24.4605 1.38925 24.4605Z" fill="white"/>
+					</svg>
+
+
+				</div>
+
+			    
+			</div>
+		</div>
+
+		<br><br><br>
+		<br><br><br>
+		<button type="button" id="button_submit" onclick="checkAnswers();" style="font-size:3em;background-color: #2EC4B6; color:#FFFFFF;border-radius:10px; margin-top: 20px; ">
+			<!-- <img style="height:50px;margin-right: 20px;" src="ICONS/Envelope.png"> -->
+			<svg width="25" height="33" viewBox="0 0 15 23" fill="none" xmlns="http://www.w3.org/2000/svg" style='align:center'>
+				<path d="M1.99997 22.2999C1.39997 22.2999 0.899973 22.0999 0.499973 21.5999C-0.200027 20.7999 -0.100027 19.4999 0.699973 18.7999L9.69997 11.1999L0.699973 3.59995C-0.100027 2.89995 -0.200027 1.59995 0.499973 0.799949C1.19997 -5.14984e-05 2.49997 -0.100051 3.29997 0.599948L14.1 9.79995C14.5 10.1999 14.8 10.6999 14.8 11.2999C14.8 11.8999 14.5 12.3999 14.1 12.7999L3.29997 21.8999C2.89997 22.1999 2.49997 22.2999 1.99997 22.2999Z" fill="white"/>
+			</svg>
+
+		FINISH</button>
+
+	</div> <!--end page_questions-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src= "main.js"></script>
+</body>
+</html>
