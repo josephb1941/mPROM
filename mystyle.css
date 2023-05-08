@@ -4,7 +4,6 @@ body {
 			color: black;
 			margin: 0;
 			padding: 0;
-			width: 100%;
 		}
 
 		#page_intro {
@@ -22,7 +21,7 @@ body {
   	 		margin-right: auto;
 /*			border: 1px solid #ccc; */
   		    padding: 15px; /* Add some padding inside the container */
-  	        width: 50%; /* Set the width of the container */
+  	        width: 100%; /* Set the width of the container */
   	        border-radius: 15px;
   	        text-align: center;
   	        color:#2EC4B6;
@@ -57,7 +56,7 @@ body {
 			background-color: #2EC4B6;
 			color:#FFFFFF;
 			border-radius: 10px;
-			width: 35%;
+			width: 55%;
 			border: none;
 			margin-top: 20px;
 			height: 20%;
@@ -101,7 +100,7 @@ body {
    		    flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            width: 50%;
+            width: 100%;
             color:black;
 /*            border: 3px solid black;*/
             
@@ -111,9 +110,9 @@ body {
 		#Answers1{
 			display: flex;
 			flex-direction: column;
-			width: 50%;
+			width: 90%;
 			align-items: center;
-/*			border: 3px solid green;*/
+			/*border: 3px solid green;*/
 		}
 
 		#Answers2,#Answers3,#Answers4,#Answers5,#Answers6,#Answers7{
@@ -121,9 +120,9 @@ body {
 			flex-direction: column;
 /*			text-align: left;*/
 /*	        justify-content: center;*/
-			width: 50%;
+			width: 90%;
 			align-items: center;
-/*			border: 3px solid green;*/
+			/*border: 3px solid green;*/
 		}
 
 		#q1a1,#q1a2,#q1a3,#q1a4,#q1a5,
@@ -142,11 +141,11 @@ body {
     font-size:2.5em; 
     margin-bottom: 10px; 
     margin-top: 10px;
-    width: 60%;
-/*    align: center;*/
+    width: 90%;
     height:80px;
     cursor: pointer;
     color:black;
+    /*border: 1px solid red;*/
 
 
 }
@@ -163,7 +162,7 @@ body {
 #q6a1t,#q6a2t,#q6a3t,#q6a4t,#q6a5t,
 #q7a1t,#q7a2t,#q7a3t,#q7a4t,#q7a5t {
 /*    color: black;*/
-text-align:left;
+/*border: 1px solid red;*/
 }
 
 #q1_gif,#q2_gif,#q3_gif,#q4_gif,#q5_gif,#q6_gif,#q7_gif {
@@ -193,7 +192,6 @@ text-align:left;
 
 .Playbutton1,.Playbutton2,.Playbutton3,.Playbutton4,.Playbutton5{
 	cursor: pointer;
-	border-radius: 10px;
 
 }
 

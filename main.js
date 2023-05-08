@@ -207,7 +207,6 @@ function checkAnswers(){
             empty_elements.push(ind+1);
             // document.getElementById('Question'+(ind+1)).style.color = 'red';
             (document.getElementById('Question'+(ind+1)).children[0].style.backgroundColor = '#F99F23');
-            (document.getElementById('Question'+(ind+1)).children[0].style.color = 'White');
 
         var elmntToView = document.getElementById("Question"+(empty_elements[0]).toString());
         elmntToView.scrollIntoView();
@@ -237,7 +236,6 @@ function ChangeQuestionColor(d){
     var num = (fields[0]);
     console.log(num);
     console.log(document.getElementsByClassName('Question_Header'+num)[0].style.backgroundColor = 'white');
-    console.log(document.getElementsByClassName('Question_Header'+num)[0].style.color = 'black');
     // .style.backgroundColor = 'white';;
     // document.getElementById('Question'+num).children[0].style.backgroundColor = 'white';
 
